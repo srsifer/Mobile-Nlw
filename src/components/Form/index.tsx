@@ -11,6 +11,7 @@ import {
 import { feedbackTypes } from '../../utils/feedbackTypes'
 import { FeedbackType } from '../../components/widget';
 import { ScreenShotButton } from '../../components/ScreenShotButton';
+import { Botton } from '../../components/Botton';
 import { theme } from '../../theme';
 import { styles } from './styles';
 
@@ -55,6 +56,7 @@ export function Form({ feebackType }: Props) {
             onRemoveShot={() => {}}
             screenShot=""
           />
+          <Botton isLoading={false} />
         </View>
     </View>
   );
