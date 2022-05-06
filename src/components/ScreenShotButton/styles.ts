@@ -12,10 +12,14 @@ export const styles = StyleSheet.create({
       alignItems: 'center', 
       marginRight: 8
   }, 
-  
+
   removeIcon: {
       position: 'absolute',
       bottom: 0,
       rigth: 0,
+  },
+  image: {
+    width: 40,
+    height: 40
   }
 });
