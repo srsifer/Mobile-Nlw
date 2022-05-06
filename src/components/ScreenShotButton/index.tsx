@@ -39,7 +39,7 @@ export function ScreenShotButton({ screenShot, onTakeShot, onRemoveShot }: Props
         :
         <Camera 
           size={24}
-          color={theme.colors.surface_secondary}
+          color={theme.colors.surface_primary}
           weight='bold'
         />
       }
