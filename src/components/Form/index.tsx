@@ -49,6 +49,13 @@ export function Form({ feebackType }: Props) {
            placeholderTextColor={theme.colors.text_secondary}
 
         />
+        <View style={styles.footer}>
+          <ScreenShotButton 
+            onTakeShot={() => {}}
+            onRemoveShot={() => {}}
+            screenShot=""
+          />
+        </View>
     </View>
   );
 }
