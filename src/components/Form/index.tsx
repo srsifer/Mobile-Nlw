@@ -10,6 +10,7 @@ import {
 
 import { feedbackTypes } from '../../utils/feedbackTypes'
 import { FeedbackType } from '../../components/widget';
+import { ScreenShotButton } from '../../components/ScreenShotButton';
 import { theme } from '../../theme';
 import { styles } from './styles';
 
@@ -46,7 +47,7 @@ export function Form({ feebackType }: Props) {
            style={styles.input}
            placeholder="Algo não está funcionando bem? queremos corrigir. Conte com detalhes oque está acontecendo"
            placeholderTextColor={theme.colors.text_secondary}
-           
+
         />
     </View>
   );
