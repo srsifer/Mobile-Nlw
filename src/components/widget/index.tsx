@@ -7,6 +7,7 @@ import { styles } from './styles';
 import BottomSheet from '@gorhom/bottom-sheet';
 import { Options } from '../options';
 import { Form } from '../Form';
+import { Success } from '../Success';
 import { feedbackTypes } from '../../utils/feedbackTypes';
 
 export type FeedbackType = keyof typeof feedbackTypes;
@@ -40,8 +41,8 @@ function Widget() {
         handleIndicatorStyle={styles.indicator}
       >
        {/*  <Options /> */}
-        <Form
-          feebackType='OTHER'
+        <Form 
+          feebackType='BUG'
         />
       </BottomSheet>
     </>
