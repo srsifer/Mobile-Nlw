@@ -41,6 +41,13 @@ export function Form({ feebackType }: Props) {
           </Text>
         </View>
       </View>
+        <TextInput 
+           multiline
+           style={styles.input}
+           placeholder="Algo não está funcionando bem? queremos corrigir. Conte com detalhes oque está acontecendo"
+           placeholderTextColor={theme.colors.text_secondary}
+           
+        />
     </View>
   );
 }
